@@ -1,0 +1,29 @@
+.feature{
+    background-color: #2e870d;
+    color: #fff;
+    padding: 4rem 0px;
+    .feature--content{
+        .feature--content--info{
+            img{
+                margin-bottom: 10px;
+            }
+            h5{
+                font-size: 18px;
+                color: #ffffff;
+                font-weight: 700;
+                font-family: "Montserrat";
+                text-align: center;
+            }
+            p{
+                width: 250px;
+                font-size: 12px;
+                line-height: 24px;
+                color: #ddd;
+                font-weight: 400;
+                font-family: "Montserrat";
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+    }
+}

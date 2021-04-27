@@ -1,0 +1,80 @@
+.navbar{
+    .navbar--container{
+        padding: 0px 31px;
+        display: flex;
+        align-items:center;
+     .navbar--container--buttonGroup{
+            display: flex;
+             align-items:center;
+        a{
+             display: block;
+             margin: 0px 20px;
+             text-decoration: none;
+             font-size: 12px;
+             letter-spacing: 0px;
+             color: #000000;
+             font-weight: 700;
+            //  font-family: "Roboto";
+         }
+         .navbar--container--buttonGroup--dropDown{
+        
+       
+            .dropDown-button{
+            background-color: #fff;
+            border: none;
+            padding: 0;
+            text-decoration: none;
+            font-size: 12px;
+            letter-spacing: 0px;
+            color: #000000;
+            font-weight: 700;
+            // font-family: "Roboto";
+       
+            .dropDown-button--icon{
+                font-size: 18px;
+
+            }
+           
+            }
+         }
+     }   
+     .navbar--container--image{
+         width: 400px;
+         @media only screen and (max-width: 1100px) {
+            width: auto;
+
+          }
+         img{
+             height: 35px;
+         }
+
+     }
+     .navbar--container--icon{
+         display:flex;
+        span{
+            position: relative;
+            .add-to-cart{
+                position: absolute;
+                right: -10px;
+                top: -10px;
+                font-size: 10px;
+                background-color: red;
+                padding: 2px 5px; 
+                border-radius: 10px;
+                color: white;
+            }
+        }
+     }
+    }
+}  
+@media only screen and (max-width: 1100px) {
+    .desktop-view-hide{
+        display: none !important;
+    }
+  }
+
+@media only screen and (min-width: 1100px) {
+    .mobile-view-hide{
+        display: none !important;
+    }
+  }
